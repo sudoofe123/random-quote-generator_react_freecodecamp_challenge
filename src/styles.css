@@ -1,0 +1,73 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#quote-box {
+  width: 500px;
+  height: 300px;
+  background-color: #f2f2f2;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  text-align: center;
+  margin: 0;
+  /* margin: 50px auto; */
+}
+
+#text {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+#author {
+  font-size: 20px;
+  color: gray;
+}
+
+#new-quote {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+#new-quote:hover {
+  background-color: #3e8e41;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid black; */
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.icon {
+  background-color: fuchsia;
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+  padding: 4px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+span {
+  color: #fff;
+  margin-top: 10px;
+}
